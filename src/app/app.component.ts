@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-project';
+  bikeDetails = {
+    bikeName : 'DUKE',
+    bikeOwner : 'Raj',
+    bikeColor : 'Orange'
+  }
 }
